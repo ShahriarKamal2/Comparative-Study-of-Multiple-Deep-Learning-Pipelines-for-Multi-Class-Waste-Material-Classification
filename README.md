@@ -1,4 +1,4 @@
-# TrashNet Waste Classification with Deep Learning
+# TrashNet Waste Classification with Deep Learning:
 
 A deep learning image-classification project comparing **MobileNetV2**, **ResNet50**, and **VGG16** for multi-class waste classification using the **TrashNet** dataset.
 
@@ -34,7 +34,7 @@ The notebooks cover:
 | ResNet50 | Residual CNN architecture | `cse465-resnet50-modified.ipynb` |
 | VGG16 | Larger classic CNN architecture | `465-vgg16with-80-freeeze.ipynb` |
 
-## Current Results
+## Current Results:
 
 The following results are taken from the outputs currently stored in the notebooks:
 
@@ -46,7 +46,7 @@ The following results are taken from the outputs currently stored in the noteboo
 
 > **Note:** These are the results recorded in the current notebook runs. MobileNetV2 reports test accuracy directly, while the ResNet50 and VGG16 notebooks report global model accuracy calculated from the test predictions. Training details also vary slightly between notebooks, so the table should be interpreted as a summary of the current experiments rather than a perfectly controlled benchmark.
 
-## Dataset
+## Dataset:
 
 This project uses the **TrashNet** waste-image dataset.
 
@@ -57,7 +57,7 @@ The dataset contains images from six waste categories: cardboard, glass, metal, 
 
 The dataset itself is **not included in this repository**.
 
-## Training Pipeline
+## Training Pipeline:
 
 Across the notebooks, the general workflow is:
 
